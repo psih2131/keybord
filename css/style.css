@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+a{
+	text-decoration:none;
+}
+p{
+	font-size: 16px;
+}
+li{
+	list-style-type: none;
+}
+button{
+	cursor: pointer;
+	outline:0 none !important;
+}
+input{
+	
+	outline:0 none !important;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+select{
+	cursor: pointer;
+	outline:0 none !important;
+}
+textarea{
+	outline:0 none !important;
+}
+body{
+	color:#000;
+	font-family: 'Montserrat', sans-serif;
+}
+.app{
+	width: 100%;
+	height: 100vh;
+	background: #222;
+	position: relative;
+	padding-top: 50px;
+}
+.search{
+	background: #252830;
+	width: 500px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-right: 10px;
+	box-shadow:  0 0 20px rgba(255, 255, 255, 0.03);
+}
+.input{
+	width: calc(100% - 20px);
+	padding: 16px;
+	font-size: 15px;
+	border: none;
+	background: none;
+	color: #fff;
+	letter-spacing: 2px;
+}
+.search__virtyal-keyboard{
+	width: 20px;
+	display: block;
+	cursor: pointer;
+	transition: all ease 0.3s;
+}
+.search__virtyal-keyboard:hover{
+	transform: scale(1.1);
+	transition: all ease 0.3s;
+}
+.search__virtyal-keyboard img{
+	width: 100%;
+}
+.virtyal-keyboard{
+	width: 800px;
+	position: fixed;
+	bottom: 30px;
+	left: calc(50% - 400px);
+	background: #252830;
+	box-shadow:  0 0 20px rgba(255, 255, 255, 0.1);
+	border-radius: 20px;
+	padding: 40px;
+	padding-bottom: 20px;
+	transition: all ease 0.8s;
+	opacity: 0;
+	transform: translateY(400px);
+}
+.show-board{
+	opacity: 1;
+	transform: translateY(0px);
+}
+.virtyal-keyboard__wrapper{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.virtyal-keyboard__letter-conteiner{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+}
+.virtyal-keyboard__btn{
+	width: 50px;
+	height: 50px;
+	background: #252830;
+	box-shadow:  0 0 10px rgba(255, 255, 255, 0.1);
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	font-size: 18px;
+	margin: 0 10px;
+	margin-bottom: 20px;
+	cursor: pointer;
+	transition: all ease 0.2s;
+}
+.uppercase-activ .virtyal-keyboard__btn{
+	text-transform: uppercase;
+}
+.virtyal-keyboard__btn:hover{
+	background: #12131F;
+	transition: all ease 0.2s;
+}
+
+.virtyal-keyboard__btn_size2{
+	width: 75px;
+	height: 50px;
+}
+.virtyal-keyboard__btn_size3{
+	width: 100px;
+	color: #7F8289;
+}
+.virtyal-keyboard__btn_size4{
+	width: 450px;
+}
+.virtyal-keyboard__controls-conteiner{
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+.virtyal-keyboard__abs{
+	position: absolute;
+	top: -70px;
+}
+.del-letters{
+	right: 0;
+}
+.big-letters{
+	left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px){
+
+}
